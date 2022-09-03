@@ -1,3 +1,15 @@
+# Adding config.py file
+api_keys.py
+
+# Adding files not to push to Github
+cities.csv
+VacationPy_starter.ipynb
+WeatherPy_starter.ipynb
+WeatherPy.ipynb
+API_practice.ipynb
+random_numbers.ipynb
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
