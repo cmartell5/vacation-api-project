@@ -1,9 +1,9 @@
-# python-api-challenge
+# Python - API Project
 Instructions
-This activity is broken down into two parts, WeatherPy and VacationPy.
+This project is broken down into two parts, WeatherPy and VacationPy.
 
 # Part 1: WeatherPy
-In this section, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use a simple Python library (Links to an external site.), the OpenWeatherMap API (Links to an external site.), and your problem-solving skills to create a representative model of weather across cities.
+In this section, I'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. I'll use a simple Python library (Links to an external site.), the OpenWeatherMap API (Links to an external site.), and my problem-solving skills to create a representative model of weather across cities.
 
 The first requirement is to create a series of scatter plots to showcase the following relationships:
 
@@ -37,7 +37,7 @@ Southern Hemisphere: Wind Speed (mph) vs. Latitude
 
 After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
 
-Your final notebook must meet the following requirements:
+My final notebook will meet the following requirements:
 
 Randomly select at least 500 unique (not repeated) cities based on latitude and longitude.
 
@@ -48,21 +48,19 @@ Include a print log of each city as it's being processed, with the city number a
 Save a CSV of all retrieved data and a PNG image for each scatter plot.
 
 # Part 2: VacationPy
-Now, use your weather data skills to plan future vacations. Use Jupyter gmaps and the Google Places API for this part of the assignment.
-
-To complete this part of the assignment, complete the following steps:
+Now, I will use my weather data skills to plan future vacations. I will use Jupyter gmaps and the Google Places API for this part of the project.
 
 1. Create a heat map that displays the humidity for every city from Part 1
 
-2. Narrow down the DataFrame to find your ideal weather condition. For example:
+2. Narrow down the DataFrame to find my ideal weather condition. For example:
          A max temperature lower than 80 degrees but higher than 70
 
          Wind speed less than 10 mph
 
          Zero cloudiness
 
-3. Drop any rows that don't satisfy all three conditions. You want to be sure that the weather is ideal.
+3. Drop any rows that don't satisfy all three conditions. I want to be sure that the weather is ideal.
 
-4. For each city, use the Google Places API to find the first hotel located within 5,000 meters of your coordinates.
+4. For each city, use the Google Places API to find the first hotel located within 5,000 meters of my coordinates.
 
 5. Plot the hotels on top of the humidity heatmap, with each pin containing the Hotel Name, City, and Country.
